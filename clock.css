@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+.menu{
+    background-color: #212b34;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px;
+}
+li{
+    list-style-type: none;
+    margin-right: 30px;
+}
+li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #e0e1dd;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.clockPlace{
+    width: 250px;
+    height: 350px;
+    border: 2px solid #e0e1dd;
+    box-shadow: 0px 0px 15px 2px rgb(195, 195, 194);
+    transition: box-shadow 0.3s ease-in-out;
+    margin: 28px;
+}
+.clockPlace:hover{
+    box-shadow: 0px 0px 30px 10px rgb(195, 195, 194);
+}
+.clock{
+    background-color: black;
+    width: 180px;
+    height: 80px;
+    border-radius: 20px;
+    margin-left: 32px;
+    margin-top: 50px;
+    box-shadow: 16px 14px 30px -11px rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.time{
+    color: #e0e1dd;
+    font-size: 30px;
+    font-family: 'Silkscreen', cursive;
+}
+hr{
+    margin-top: 75px;
+    border: 2px solid #e0e1dd;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+    height: 170px;
+}
+.prays{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    color: #5a5d67;
+}
+.notPray{
+    text-decoration: line-through;
+    text-decoration-color: #7c0000;
+}
+.pray{
+    color: #7c0000;
+}
+.buy{
+    color: #888c98;
+    background-color: #212b34;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px 2px #212b34;
+    font-size: 20px;
+    transition: box-shadow 0.3s ease;
+    transition: background-color 0.3 ease-in-out;
+    border: none;
+}
+.buy:hover{
+    box-shadow: 4px 4px 15px 2px #212b34;
+    background-color: #192128;
+}
+.buy.clicked{
+    background-color: #426342;
+    color: #80a67a;
+    box-shadow: 4px 4px 15px 2px #395439;
+}
+.two{
+    background-color: #d1b997;
+    height: 40px;
+    margin-top: 90px;
+    border-radius: 5px;
+    box-shadow: 16px 14px 30px -11px rgb(57, 37, 28)
+
+}
+.sec{
+    color: #36312f;
+    font-family: 'Wallpoet', cursive;
+}
+.three{
+    background-color: #d7c49b;
+    height: 150px;
+    width: 90px;
+    margin-left: 80px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 16px 14px 30px -11px rgb(163, 150, 99)
+}
+.trd{
+    font-size: 20px;
+    color: white;
+    font-family: 'VT323', monospace;
+    text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 30px #ffcc00;
+}
+#botHr{
+    margin-top: 28px;
+}
+.screen{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 5px;
+}
+.four{
+    background-color: #493315;
+    border-radius: 5px;
+    box-shadow: 16px 14px 30px -11px rgb(57, 37, 28);
+    
+    
+}
+.frt{
+    color: #ffffff;
+    font-size: 28px;
+    margin-left: 5px;
+    margin-top: 4px;
+    text-shadow: 0 0 5px #22ff00, 0 0 10px #17a801, 0 0 20px #0b5100;
+}
+.screenTwo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: white;
+}
+.five{
+    background-color: #d1b997;
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 30px;
+    flex-direction: column;
+    box-shadow: 16px 14px 30px -11px rgb(149, 126, 101)
+
+}
+.fif{
+    color: white;
+    text-shadow: 0 0 10px #ff005d, 0 0 20px #ff005d, 0 0 30px #ff005d;
+    font-size: 20px;
+    font-family: 'Wallpoet', cursive;
+    margin-top: 5px;
+
+}
+#botNew{
+    margin-top: 27px;
+}
+.firstRow{
+    margin-top: 40px;
+}
+.timeTwo{
+    color: #e0e1dd;
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: 'Georama', sans-serif;
+}
+.six{
+    background-color: #927756;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    border-radius: 10px;
+    margin-top: 80px;
+    box-shadow: 16px 14px 30px -11px rgb(81, 56, 44)
+
+}
+.screenThree{
+    background-color: black;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.onOff{
+    color: rgb(237, 186, 18);
+    font-size: 10px;
+    margin-right: 5px;
+}
+.screenFour{
+    background-color: black;
+    width: 172px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.seven{
+    box-shadow: 16px 14px 30px -11px rgb(57, 37, 28);
+    height: 100px;
+    border-radius: 3px;
+    
+    background-color: #493315;
+}
+.exHr{
+    margin-top: 55px;
+}
+.txtDis{
+    display: flex;
+    flex-direction: column;
+}
+.sev{
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    margin-left: -40px;
+    margin-top: 40px;
+}
+.sun{
+    height: 160px;
+    width: 150px;
+    opacity: 0.6;
+}
+.day{
+    color: #e0e1dd;
+    font-family: 'VT323', monospace;
+    margin-left: -20px;
+
+}
+.eight{
+    box-shadow: 16px 14px 30px -11px rgb(92, 92, 92);
+    background-color: #bbbbbb;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 57px;
+
+}
+.screenFive{
+    background-color: #627f62;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.eig{
+    color: black;
+    font-family: 'VT323', monospace;
+
+}
+.nine{
+    border-radius: 100px;
+    height: 60px;
+    border: 3px solid rgb(255, 1, 255);
+    margin-top: 75px;
+}
+.ni{
+    font-family: 'Wallpoet', cursive;
+    font-size: 35px;
+    margin-left: 0px;
+
+    
+}
+.ten{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 16px 14px 30px -11px rgb(152, 152, 152);
+    border:  2px solid #c9c9c9;
+
+}
+.tt{
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Silkscreen', cursive;
+    margin: 0px;
+
+}
